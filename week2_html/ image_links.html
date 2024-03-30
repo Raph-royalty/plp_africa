@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, nav, main, footer {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+            align-items: center;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our website! Here's an image related to technology:</p>
+            <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fepthinktank.eu%2F2020%2F12%2F24%2Fwhat-if-technology-and-culture-combined-to-boost-a-green-recovery%2F&psig=AOvVaw3NdJaoygYbjHwQWEbtBcmY&ust=1711862845470000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjh75qgm4UDFQAAAAAdAAAAABAE"><img src="./images/technology.webp" alt="Technology"></a>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <a href="https://example.com/nature1"><img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" alt="Nature 1"></a>
+                <a href="https://example.com/nature2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ63Q05gsdPI0UBzZQCI0FD8J3__1uMAwoswikY_2AFVA&s" alt="Nature 2"></a>
+                <a href="https://example.com/nature3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBsEFTJyiprf8CPYc_WaV6T97zrPVleDAMtnbkdb9kEA&s" alt="Nature 3"></a>
+            </div>
+        </section>
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul class="gallery">
+                <li><a href="https://img.freepik.com/free-photo/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.jpg?size=338&ext=jpg&ga=GA1.1.1395880969.1711756800&semt=sph"><img src="https://img.freepik.com/free-photo/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.jpg?size=338&ext=jpg&ga=GA1.1.1395880969.1711756800&semt=sph" alt="Burger"></a> Burger</li>
+                <li><a href="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"><img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="pancakes"></a> Pancakes</li>
+                <li><a href="https://img.delicious.com.au/G-2mxbOh/w1200/del/2022/08/parmesan-crumbed-chicken-schnitzel-fried-eggs-and-apple-cabbage-slaw-173352-2.jpg"><img src="https://img.delicious.com.au/G-2mxbOh/w1200/del/2022/08/parmesan-crumbed-chicken-schnitzel-fried-eggs-and-apple-cabbage-slaw-173352-2.jpg" alt="breakfast"></a> Breakfast</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Image Links</p>
+    </footer>
+</body>
+</html>
